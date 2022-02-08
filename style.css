@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.body a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2em;
+    height: 2em;
+}
+
+.body img {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.email {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #7E82EE;
+    border: 1px solid #7B7EF1;
+    border-radius: 6px 0 0 6px;
+}
+
+.lock {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #7E82EE;
+    border-top: 1px solid #7B7EF1;
+    border-bottom: 1px solid #7B7EF1; 
+}
+
+.profile {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #F05858;
+    border: 1px solid #E34F4F;
+    border-radius: 0 6px 6px 0;
+}
+
+.email:hover {
+    background: #464CE3;
+    border: 1px solid #464CE3;
+}
+
+.lock:hover {
+    background: #464CE3;
+    border: 1px solid #464CE3;
+}
+
+.profile:hover {
+    background: #DC2D2D;
+    border: 1px solid #CE4141;
+    border-radius: 0px 6px 6px 0px;    
+}
